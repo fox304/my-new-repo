@@ -4,7 +4,7 @@ Console.WriteLine("Введите число А ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число В ");
 int b = Convert.ToInt32(Console.ReadLine());
-int degree (int a1,int b1)
+int Degree (int a1,int b1)
 {
     int result = 1;
     for (int i = 0; i < b1; i++)
@@ -13,4 +13,4 @@ int degree (int a1,int b1)
     }
     return result;
 }
-Console.WriteLine($"Число {a} в степени {b} будет равно {degree(a,b)}");
+Console.WriteLine($"Число {a} в степени {b} будет равно {Degree(a,b)}");

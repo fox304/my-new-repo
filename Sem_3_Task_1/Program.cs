@@ -10,10 +10,3 @@ void Cube(int n)
     }
 }
 Cube (count);
-
-
-
-
-
-
-
